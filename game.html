@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="score">
+            <span id="score-1">0</span> - <span id="score-2">0</span>
+        </h1>
+        <div class="playground">
+            <div id="player" class="play-box">
+                <p>Mighty You</p>
+                <div id="player-hand" class="hand">
+                </div>
+                <div class="button-holder" id="button-holder">
+                    <img src="./assets/rock-logo.png" alt="" class="buttons" id="b1">
+                    <img src="./assets/paper-logo.png" alt="" class="buttons" id="b2">
+                    <img src="./assets/scissors-logo.png" alt="" class="buttons" id="b3">
+                </div>
+            </div>
+            <img src="./assets/vs.png" alt="" id="vs">
+            <div id="comp" class="play-box">
+                <p>Computer</p>
+                <div id="comp-hand" class="hand">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div id="game-over">
+            <h1 id="winnerText">
+                <span id="winner"></span> Won the game 🥳
+            </h1>
+            <button id="play-again">Play Again</button>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>

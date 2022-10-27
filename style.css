@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: poppins;
+    text-align: center;
+    background: url('./assets/bg.png') no-repeat;
+    background-size: 100% 120%;
+    border: none;
+    padding: 50px;
+    color: white;
+}
+
+#title{
+    color: rgb(90, 37, 192);
+    font-size: 48px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+#section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 0 100px;
+}
+
+#hero-img{
+    height: 450px;
+}
+
+#playGameButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#play-img{
+    margin-right: 25px;
+    height: 32px;
+}
+
+#score{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.playground{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-box{
+    height: 400px;
+    width: 400px;
+    border: solid 1px #ffc434;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.play-box p{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hand{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.buttons{
+    margin:10px;
+    height: 80px;
+}
+
+#vs{
+    height: 500px;
+    margin: 0 100px;
+}
+
+#game-over{
+    display: none;
+    margin-top: 50px;
+}
+
+#play-again{
+    border: none;
+    background-color: #ffc434;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+}
